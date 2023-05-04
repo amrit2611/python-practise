@@ -72,16 +72,47 @@
 # print(not 5==5)
 # print(not False)
 
-# assignment operator
-x = 5 + 10
-print(x)
-x = 10
-x += 10
-print(x)
-a = 5
-a /= 2
-print(a)
+# # assignment operator
+# x = 5 + 10
+# print(x)
+# x = 10
+# x += 10
+# print(x)
+# a = 5
+# a /= 2
+# print(a)
 
-# conditional operator
-name = "python"
-print("False!" if name!="python" else "True!")
+# # conditional operator
+# name = "python"
+# print("False!" if name!="python" else "True!")
+
+# # lists methods and operations
+# numbers = [1,2,3,4,5,6,7,8,9,93,10]
+# print(numbers)
+# print(numbers[5])
+# mixed = ["Hi", [5,7,8], 35, False]
+# print(mixed)
+# print(len(numbers))
+# print(numbers[3:9]) # index 9 not included
+# print(numbers[len(numbers) - 2])
+
+
+
+# more operations on lists
+cars = ["bmw", "volvo", "audi"]
+cars[2] = "mercedes" # modifying list
+print(cars)
+cars.append("bugati") # appending to list
+print(cars)
+del cars[2] # deleting from list
+print(cars)
+
+# tuple
+players = ("dhoni", "sachin", "virat", "sehwag")
+print(players)
+players2 = "messi", "ronaldo", "iniesta", "torres"
+print(players2)
+fruit1 = ("lemon")
+fruit2 = ("orange", )
+print(fruit1)
+print(fruit2)
