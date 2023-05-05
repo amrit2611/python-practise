@@ -117,21 +117,29 @@
 # print(fruit1)
 # print(fruit2)
 
-# list inside tuple
-mixed = ("Fruit", 32, [10,20,30,40])
-print(mixed)
-print(mixed[2])
-print(mixed[1:3])
+# # list inside tuple
+# mixed = ("Fruit", 32, [10,20,30,40])
+# print(mixed)
+# print(mixed[2])
+# print(mixed[1:3])
 
-# update tuple
-fruits = ("apple", "orange", "lemon", "berry")
-print(fruits)
-fruits = ("figs", "banana")
-print(fruits)
+# # update tuple
+# fruits = ("apple", "orange", "lemon", "berry")
+# print(fruits)
+# fruits = ("figs", "banana")
+# print(fruits)
 
-# tuple concatination
-print(fruits+mixed)
+# # tuple concatination
+# print(fruits+mixed)
 
-# del tuple
-del fruits
-print(fruits)
+# # del tuple
+# del fruits
+# print(fruits)
+
+
+# dictionary
+fruit_color = {"banana":"yellow", "apple":"red", "grapes":"green"}
+fruit_color2 = dict({"banana":"yellow", "apple":"red", "grapes":"green"})
+print(fruit_color, fruit_color2)
+print(type(fruit_color), type(fruit_color2))
+
