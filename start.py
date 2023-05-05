@@ -128,3 +128,10 @@ fruits = ("apple", "orange", "lemon", "berry")
 print(fruits)
 fruits = ("figs", "banana")
 print(fruits)
+
+# tuple concatination
+print(fruits+mixed)
+
+# del tuple
+del fruits
+print(fruits)
