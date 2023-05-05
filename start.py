@@ -143,3 +143,10 @@ fruit_color2 = dict({"banana":"yellow", "apple":"red", "grapes":"green"})
 print(fruit_color, fruit_color2)
 print(type(fruit_color), type(fruit_color2))
 
+# dictionary methods
+print(fruit_color["apple"])
+print(fruit_color.get("banana"))
+print(fruit_color.get("orange")) # none
+# print(fruit_color["strawberry"]) # error
+fruit_color3 = {"banana":["yellow", 43,6,4], "apple":"red", "grapes":"green"}
+print(fruit_color3["banana"][2])
