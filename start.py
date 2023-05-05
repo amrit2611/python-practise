@@ -98,21 +98,33 @@
 
 
 
-# more operations on lists
-cars = ["bmw", "volvo", "audi"]
-cars[2] = "mercedes" # modifying list
-print(cars)
-cars.append("bugati") # appending to list
-print(cars)
-del cars[2] # deleting from list
-print(cars)
+# # more operations on lists
+# cars = ["bmw", "volvo", "audi"]
+# cars[2] = "mercedes" # modifying list
+# print(cars)
+# cars.append("bugati") # appending to list
+# print(cars)
+# del cars[2] # deleting from list
+# print(cars)
 
-# tuple
-players = ("dhoni", "sachin", "virat", "sehwag")
-print(players)
-players2 = "messi", "ronaldo", "iniesta", "torres"
-print(players2)
-fruit1 = ("lemon")
-fruit2 = ("orange", )
-print(fruit1)
-print(fruit2)
+# # tuple
+# players = ("dhoni", "sachin", "virat", "sehwag")
+# print(players)
+# players2 = "messi", "ronaldo", "iniesta", "torres"
+# print(players2)
+# fruit1 = ("lemon")
+# fruit2 = ("orange", )
+# print(fruit1)
+# print(fruit2)
+
+# list inside tuple
+mixed = ("Fruit", 32, [10,20,30,40])
+print(mixed)
+print(mixed[2])
+print(mixed[1:3])
+
+# update tuple
+fruits = ("apple", "orange", "lemon", "berry")
+print(fruits)
+fruits = ("figs", "banana")
+print(fruits)
