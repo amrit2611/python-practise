@@ -150,3 +150,13 @@ print(fruit_color.get("orange")) # none
 # print(fruit_color["strawberry"]) # error
 fruit_color3 = {"banana":["yellow", 43,6,4], "apple":"red", "grapes":"green"}
 print(fruit_color3["banana"][2])
+
+# dictionary modification
+fruit_color3["apple"] = 35     # modification
+print(fruit_color3)
+fruit_color3["orange"] = "orange"  # addition
+print(fruit_color3)
+del fruit_color3["orange"]      # deletion of an item
+print(fruit_color3)
+del fruit_color3           # deletion of entire dictionary
+print(fruit_color3)
