@@ -98,21 +98,65 @@
 
 
 
-# more operations on lists
-cars = ["bmw", "volvo", "audi"]
-cars[2] = "mercedes" # modifying list
-print(cars)
-cars.append("bugati") # appending to list
-print(cars)
-del cars[2] # deleting from list
-print(cars)
+# # more operations on lists
+# cars = ["bmw", "volvo", "audi"]
+# cars[2] = "mercedes" # modifying list
+# print(cars)
+# cars.append("bugati") # appending to list
+# print(cars)
+# del cars[2] # deleting from list
+# print(cars)
 
-# tuple
-players = ("dhoni", "sachin", "virat", "sehwag")
-print(players)
-players2 = "messi", "ronaldo", "iniesta", "torres"
-print(players2)
-fruit1 = ("lemon")
-fruit2 = ("orange", )
-print(fruit1)
-print(fruit2)
+# # tuple
+# players = ("dhoni", "sachin", "virat", "sehwag")
+# print(players)
+# players2 = "messi", "ronaldo", "iniesta", "torres"
+# print(players2)
+# fruit1 = ("lemon")
+# fruit2 = ("orange", )
+# print(fruit1)
+# print(fruit2)
+
+# # list inside tuple
+# mixed = ("Fruit", 32, [10,20,30,40])
+# print(mixed)
+# print(mixed[2])
+# print(mixed[1:3])
+
+# # update tuple
+# fruits = ("apple", "orange", "lemon", "berry")
+# print(fruits)
+# fruits = ("figs", "banana")
+# print(fruits)
+
+# # tuple concatination
+# print(fruits+mixed)
+
+# # del tuple
+# del fruits
+# print(fruits)
+
+
+# dictionary
+fruit_color = {"banana":"yellow", "apple":"red", "grapes":"green"}
+fruit_color2 = dict({"banana":"yellow", "apple":"red", "grapes":"green"})
+print(fruit_color, fruit_color2)
+print(type(fruit_color), type(fruit_color2))
+
+# dictionary methods
+print(fruit_color["apple"])
+print(fruit_color.get("banana"))
+print(fruit_color.get("orange")) # none
+# print(fruit_color["strawberry"]) # error
+fruit_color3 = {"banana":["yellow", 43,6,4], "apple":"red", "grapes":"green"}
+print(fruit_color3["banana"][2])
+
+# dictionary modification
+fruit_color3["apple"] = 35     # modification
+print(fruit_color3)
+fruit_color3["orange"] = "orange"  # addition
+print(fruit_color3)
+del fruit_color3["orange"]      # deletion of an item
+print(fruit_color3)
+del fruit_color3           # deletion of entire dictionary
+print(fruit_color3)
