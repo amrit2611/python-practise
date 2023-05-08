@@ -137,26 +137,54 @@
 # print(fruits)
 
 
-# dictionary
-fruit_color = {"banana":"yellow", "apple":"red", "grapes":"green"}
-fruit_color2 = dict({"banana":"yellow", "apple":"red", "grapes":"green"})
-print(fruit_color, fruit_color2)
-print(type(fruit_color), type(fruit_color2))
+# # dictionary
+# fruit_color = {"banana":"yellow", "apple":"red", "grapes":"green"}
+# fruit_color2 = dict({"banana":"yellow", "apple":"red", "grapes":"green"})
+# print(fruit_color, fruit_color2)
+# print(type(fruit_color), type(fruit_color2))
 
-# dictionary methods
-print(fruit_color["apple"])
-print(fruit_color.get("banana"))
-print(fruit_color.get("orange")) # none
-# print(fruit_color["strawberry"]) # error
-fruit_color3 = {"banana":["yellow", 43,6,4], "apple":"red", "grapes":"green"}
-print(fruit_color3["banana"][2])
+# # dictionary methods
+# print(fruit_color["apple"])
+# print(fruit_color.get("banana"))
+# print(fruit_color.get("orange")) # none
+# # print(fruit_color["strawberry"]) # error
+# fruit_color3 = {"banana":["yellow", 43,6,4], "apple":"red", "grapes":"green"}
+# print(fruit_color3["banana"][2])
 
-# dictionary modification
-fruit_color3["apple"] = 35     # modification
-print(fruit_color3)
-fruit_color3["orange"] = "orange"  # addition
-print(fruit_color3)
-del fruit_color3["orange"]      # deletion of an item
-print(fruit_color3)
-del fruit_color3           # deletion of entire dictionary
-print(fruit_color3)
+# # dictionary modification
+# fruit_color3["apple"] = 35     # modification
+# print(fruit_color3)
+# fruit_color3["orange"] = "orange"  # addition
+# print(fruit_color3)
+# del fruit_color3["orange"]      # deletion of an item
+# print(fruit_color3)
+# del fruit_color3           # deletion of entire dictionary
+# print(fruit_color3)
+
+
+# sets
+newfruits = {"fig", "lemon", "banana"}
+print(newfruits) # prints random values in no order
+for x in newfruits:
+    print(x)  # prints one by one in no particular order
+print("banana" in newfruits) # value will be boolean
+print("apple" in newfruits) # false
+newfruits.add("orange")  # adds an item
+print(newfruits)
+
+newfruits.update(["mango", "grapes"])  # to add multiple items
+print(newfruits)
+
+print(len(newfruits))
+
+newfruits.remove("fig")  # removes an item from the set
+print(newfruits)
+
+x = newfruits.pop()  # removes random element from set
+print(x)
+
+newfruits.clear()  # removes all items from set and makes it an empty set
+print(newfruits)
+
+del newfruits   # deletes the set completely
+print(newfruits)
