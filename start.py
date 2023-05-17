@@ -200,10 +200,12 @@
 
 
 # if and else statement
-num = 50
+num = 25
 
 if num > 30:
     print(str(num) + " is greater than 30")
+elif 30 > num > 20:
+    print(str(num) + " is less than 30 and more than 20")
 else:
     print(str(num) + " is not greater than 30")
 
