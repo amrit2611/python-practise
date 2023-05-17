@@ -162,29 +162,50 @@
 # print(fruit_color3)
 
 
-# sets
-newfruits = {"fig", "lemon", "banana"}
-print(newfruits) # prints random values in no order
-for x in newfruits:
-    print(x)  # prints one by one in no particular order
-print("banana" in newfruits) # value will be boolean
-print("apple" in newfruits) # false
-newfruits.add("orange")  # adds an item
-print(newfruits)
+# # sets
+# newfruits = {"fig", "lemon", "banana"}
+# print(newfruits) # prints random values in no order
+# for x in newfruits:
+#     print(x)  # prints one by one in no particular order
+# print("banana" in newfruits) # value will be boolean
+# print("apple" in newfruits) # false
+# newfruits.add("orange")  # adds an item
+# print(newfruits)
 
-newfruits.update(["mango", "grapes"])  # to add multiple items
-print(newfruits)
+# newfruits.update(["mango", "grapes"])  # to add multiple items
+# print(newfruits)
 
-print(len(newfruits))
+# print(len(newfruits))
 
-newfruits.remove("fig")  # removes an item from the set
-print(newfruits)
+# newfruits.remove("fig")  # removes an item from the set
+# print(newfruits)
 
-x = newfruits.pop()  # removes random element from set
-print(x)
+# x = newfruits.pop()  # removes random element from set
+# print(x)
 
-newfruits.clear()  # removes all items from set and makes it an empty set
-print(newfruits)
+# newfruits.clear()  # removes all items from set and makes it an empty set
+# print(newfruits)
 
-del newfruits   # deletes the set completely
-print(newfruits)
+# del newfruits   # deletes the set completely
+# print(newfruits)
+
+
+
+
+# language = ["s", "df", "dfdf", "iyhe", 'iywefdfidfhidf',"dfdfdf","hfuefh8ue"]
+# print(language[:-4])  # prints the list with specified number of elements removed 
+
+
+
+
+
+# if and else statement
+num = 50
+
+if num > 30:
+    print(str(num) + " is greater than 30")
+else:
+    print(str(num) + " is not greater than 30")
+
+
+
