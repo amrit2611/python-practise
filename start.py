@@ -199,13 +199,33 @@
 
 
 
-# if and else statement
-num = 50
+# # if, else, elif
+# num = 25
 
-if num > 30:
-    print(str(num) + " is greater than 30")
+# if num > 30:
+#     print(str(num) + " is greater than 30")
+# elif 30 > num > 20:
+#     print(str(num) + " is less than 30 and more than 20")
+# else:
+#     print(str(num) + " is not greater than 30")
+
+
+# # ternary operator
+# print("Smaller than 20" if num < 20 else "Greater than 30")
+
+
+# # while loop
+# x = 2
+# while (x < 10):
+#     print(x)
+#     x = x + 1
+#     if(x == 8):
+#         break                     # break
+
+# else in loop
+x = 1
+while (x < 10):
+    print(x)
+    x = x + 1
 else:
-    print(str(num) + " is not greater than 30")
-
-
-
+    print("loop is completed")
