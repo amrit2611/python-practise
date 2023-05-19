@@ -222,10 +222,20 @@
 #     if(x == 8):
 #         break                     # break
 
-# else in loop
-x = 1
-while (x < 10):
-    print(x)
-    x = x + 1
+# # else in loop
+# x = 1
+# while (x < 10):
+#     print(x)
+#     x = x + 1
+# else:
+#     print("loop is completed")
+
+# for loop
+num = [5,6,3,7,7,4,2,7,9,4,2,1,35,7,8,9,2]
+for i in num:
+    print(i)
+    if i > 9:
+        break
 else:
-    print("loop is completed")
+    print("loop completed")
+    
