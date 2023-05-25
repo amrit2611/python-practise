@@ -230,12 +230,23 @@
 # else:
 #     print("loop is completed")
 
-# for loop
-num = [5,6,3,7,7,4,2,7,9,4,2,1,35,7,8,9,2]
-for i in num:
-    print(i)
-    if i > 9:
-        break
-else:
-    print("loop completed")
+# # for loop
+# num = [5,6,3,7,7,4,2,7,9,4,2,1,35,7,8,9,2]
+# for i in num:
+#     print(i)
+#     if i > 9:
+#         break
+# else:
+#     print("loop completed")
     
+
+
+
+
+# function definition
+def hello_function(name = "amrit"): # give a default value
+    print("Hello " + name + "!!")
+    
+myname = input("Enter your name\n")    
+hello_function(myname)
+
