@@ -243,10 +243,19 @@
 
 
 
-# function definition
-def hello_function(name = "amrit"): # give a default value
-    print("Hello " + name + "!!")
-    
-myname = input("Enter your name\n")    
-hello_function(myname)
+# # --------------function-----------------
 
+# def hello_function(name = "amrit"): # give a default value for parameter
+#     print("Hello " + name + "!!")
+    
+# myname = input("Enter your name\n")    
+# hello_function(myname)
+
+
+# list as parameter 
+
+def foods(fruit):
+    for x in fruit:
+        print(x)
+my_fruits = ["fig", "apple", "banana"]
+foods(my_fruits)
