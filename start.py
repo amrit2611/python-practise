@@ -259,3 +259,11 @@ def foods(fruit):
         print(x)
 my_fruits = ["fig", "apple", "banana"]
 foods(my_fruits)
+
+
+#returning value
+
+def numbers(x):
+    return 10*x
+
+print(numbers(10))
