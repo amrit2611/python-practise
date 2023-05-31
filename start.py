@@ -252,18 +252,25 @@
 # hello_function(myname)
 
 
-# list as parameter 
+# # list as parameter 
+# def foods(fruit):
+#     for x in fruit:
+#         print(x)
+# my_fruits = ["fig", "apple", "banana"]
+# foods(my_fruits)
 
-def foods(fruit):
-    for x in fruit:
-        print(x)
-my_fruits = ["fig", "apple", "banana"]
-foods(my_fruits)
+
+# # returning value
+# def numbers(x):
+#     return 10*x
+# print(numbers(10))
 
 
-#returning value
-
-def numbers(x):
-    return 10*x
-
-print(numbers(10))
+# key value args
+def fruits(fruit1, fruit2, fruit3):
+    print("fruit1: " + fruit1)
+    print("fruit2: " + fruit2)
+    print("fruit3: " + fruit3)
+    
+    
+fruits("apple", "banana", "orange")
