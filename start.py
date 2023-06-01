@@ -266,11 +266,18 @@
 # print(numbers(10))
 
 
-# key value args
-def fruits(fruit1, fruit2, fruit3):
-    print("fruit1: " + fruit1)
-    print("fruit2: " + fruit2)
-    print("fruit3: " + fruit3)
+# # key value args
+# def fruits(fruit1, fruit2, fruit3):
+#     print("fruit1: " + fruit1)
+#     print("fruit2: " + fruit2)
+#     print("fruit3: " + fruit3)
     
     
-fruits("apple", "banana", "orange")
+# fruits("apple", "banana", "orange")
+
+
+# passing tuple into function
+def new_func(*fruit):
+    print("the fruit is: " + fruit[2])
+
+new_func("banana", "apple", "fig")
