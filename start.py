@@ -276,8 +276,21 @@
 # fruits("apple", "banana", "orange")
 
 
-# passing tuple into function
-def new_func(*fruit):
-    print("the fruit is: " + fruit[2])
+# # passing tuple into function
+# def new_func(*fruit):
+#     print("the fruit is: " + fruit[2])
 
-new_func("banana", "apple", "fig")
+# new_func("banana", "apple", "fig")
+
+
+# recursion
+def new_recursion(n):
+    if(n>0):
+        result = n + new_recursion(n-1)
+        print(result)
+    else:
+        result = 0
+    return result
+
+print("\n recursion results")
+new_recursion(20)
