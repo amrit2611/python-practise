@@ -296,6 +296,11 @@
 # new_recursion(20)
 
 
-## lambda
-a = lambda x: x * x
-print(a(100))
+# # lambda
+# a = lambda x: x * x
+# print(a(100))
+
+# lambda args
+store_lambda = lambda x,y: x*y
+print(store_lambda(20,10000))
+
