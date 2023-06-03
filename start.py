@@ -300,7 +300,31 @@
 # a = lambda x: x * x
 # print(a(100))
 
-# lambda args
-store_lambda = lambda x,y: x*y
-print(store_lambda(20,10000))
 
+# # lambda args
+# store_lambda = lambda x,y: x*y
+# print(store_lambda(20,10000))
+
+
+# # lambda with function (anonymous arg)
+# def new_multiplied(k):
+#     return lambda x : x * k
+
+# new_double = new_multiplied(2)
+# new_triple = new_multiplied(3)
+
+# print(new_double(12))
+# print(new_triple(12))
+
+
+
+# ------------------------------   OOPS  ------------------------------------ #
+
+# classes and objects in python
+class newClass:
+    def newFunc(self):
+        return "python is a lang"
+    
+newObj = newClass()
+
+print(newObj.newFunc())
