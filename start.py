@@ -320,11 +320,23 @@
 
 # ------------------------------   OOPS  ------------------------------------ #
 
-# classes and objects in python
-class newClass:
-    def newFunc(self):
-        return "python is a lang"
+# # classes and objects in python
+# class newClass:
+#     def newFunc(self):
+#         return "python is a lang"
     
-newObj = newClass()
+# newObj = newClass()
 
-print(newObj.newFunc())
+# print(newObj.newFunc())
+
+
+# multiple objects on same class
+class newClass:
+    def newHello(self):
+        return "hello! from newHello"
+    
+first_object = newClass()              # first object
+print(first_object.newHello())
+
+second_object = newClass()             # second object
+print(second_object.newHello())
