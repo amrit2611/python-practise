@@ -340,3 +340,6 @@ print(first_object.newHello())
 
 second_object = newClass()             # second object
 print(second_object.newHello())
+
+third_object = newClass()
+print(third_object.newHello())
