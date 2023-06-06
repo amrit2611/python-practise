@@ -362,4 +362,16 @@ print(my_object.addition(34, 346))
 print(my_object.subtraction(4552, 3463))
 print(my_object.multiplication(3, 547))
     
+
+# init function  (called automatically whenever class is being used to create an object)
+class newClass:
+    def __init__(self):
+        self.a = "hello"
+        self.b = " world"
+        
+    def hi(self):
+        return "hi there"
     
+first_object = newClass()
+print(first_object.a + first_object.b)
+print(first_object.hi())
