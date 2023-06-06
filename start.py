@@ -330,16 +330,48 @@
 # print(newObj.newFunc())
 
 
-# multiple objects on same class
-class newClass:
-    def newHello(self):
-        return "hello! from newHello"
+# # multiple objects on same class
+# class newClass:
+#     def newHello(self):
+#         return "hello! from newHello"
     
-first_object = newClass()              # first object
-print(first_object.newHello())
+# first_object = newClass()              # first object
+# print(first_object.newHello())
 
-second_object = newClass()             # second object
-print(second_object.newHello())
+# second_object = newClass()             # second object
+# print(second_object.newHello())
 
-third_object = newClass()
-print(third_object.newHello())
+# third_object = newClass()              # third object
+# print(third_object.newHello())
+
+
+# multiple functions in class
+class doMath:
+    def addition(self, x, y):
+        return x + y
+    def subtraction(self, x, y):
+        if(x<=y):
+            return y-x
+        elif(x>y):
+            return x-y
+    def multiplication(self, x, y):
+        return x*y
+    
+my_object = doMath()
+print(my_object.addition(34, 346))
+print(my_object.subtraction(4552, 3463))
+print(my_object.multiplication(3, 547))
+    
+
+# init function  (called automatically whenever class is being used to create an object)
+class newClass:
+    def __init__(self):
+        self.a = "hello"
+        self.b = " world"
+        
+    def hi(self):
+        return "hi there"
+    
+first_object = newClass()
+print(first_object.a + first_object.b)
+print(first_object.hi())
