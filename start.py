@@ -377,15 +377,22 @@
 # print(first_object.hi())
 
 
-# init and object method
-class Player:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
+# # init and object method
+# class Player:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
         
-    def newHi(self):
-        print("Hi, my name is ", self.name, " and my age is ", self.age)
+#     def newHi(self):
+#         print("Hi, my name is ", self.name, " and my age is ", self.age)
     
-first_player = Player("amrit", 22)
-first_player.newHi()
+# first_player = Player("amrit", 22)
+# first_player.newHi()
     
+    
+# self parameter (representation of the instance of the class)
+# self represents the instance of a class
+# self is not a keyword in python but is a convention
+# not following the convention would lead to our program becoming less readable
+
+#
