@@ -395,4 +395,15 @@ first_player.newHi()
 # self is not a keyword in python but is a convention
 # not following the convention would lead to our program becoming less readable
 
-#
+
+# # del keyword
+# del first_player.age
+# print(first_player/age)   # shows error as the age property no longer exists
+
+
+# deleting objects using del keyword
+del first_player
+print(first_player)        # shows error as object first_player no longer exists
+
+
+
