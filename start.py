@@ -335,13 +335,13 @@
 #     def newHello(self):
 #         return "hello! from newHello"
     
-# first_object = newClass()              # first object
+# first_object = newClass()              
 # print(first_object.newHello())
 
-# second_object = newClass()             # second object
+# second_object = newClass()             
 # print(second_object.newHello())
 
-# third_object = newClass()              # third object
+# third_object = newClass()              
 # print(third_object.newHello())
 
 
@@ -422,3 +422,21 @@
 
 
 
+
+# parent and child class
+
+# parent class
+class Anyone:
+    def __init__(self, firstname, lastname):
+        self.firstname = firstname
+        self.lastname = lastname
+        
+    def display(self):
+        print(self.firstname + " " + self.lastname)
+        
+# child class
+class Player(Anyone):
+    pass                                 # 'pass' used to avoid errors when class definition of child class is empty
+
+ob1 = Player("Leonel", "Messi")
+ob1.display()
