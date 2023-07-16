@@ -377,17 +377,17 @@
 # print(first_object.hi())
 
 
-# init and object method
-class Player:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
+# # init and object method
+# class Player:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
         
-    def newHi(self):
-        print("Hi, my name is ", self.name, " and my age is ", self.age)
+#     def newHi(self):
+#         print("Hi, my name is ", self.name, " and my age is ", self.age)
     
-first_player = Player("amrit", 22)
-first_player.newHi()
+# first_player = Player("amrit", 22)
+# first_player.newHi()
     
     
 # self parameter (representation of the instance of the class)
@@ -401,9 +401,24 @@ first_player.newHi()
 # print(first_player/age)   # shows error as the age property no longer exists
 
 
-# deleting objects using del keyword
-del first_player
-print(first_player)        # shows error as object first_player no longer exists
+# # deleting objects using del keyword
+# del first_player
+# print(first_player)        # shows error as object first_player no longer exists
+
+
+
+
+# # super class and inheritance
+# class Anyone:
+#     def __init__(self, firstname, lastname):
+#         self.firstname = firstname
+#         self.lastname = lastname
+        
+#     def display(self):
+#         print(self.firstname + " " + self.lastname)
+        
+# ob1 = Anyone("Amrit", "Dhandharia")
+# ob1.display()
 
 
 
