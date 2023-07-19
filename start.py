@@ -423,20 +423,27 @@
 
 
 
-# parent and child class
+# # parent and child class
 
-# parent class
-class Anyone:
-    def __init__(self, firstname, lastname):
-        self.firstname = firstname
-        self.lastname = lastname
+# # parent class
+# class Anyone:
+#     def __init__(self, firstname, lastname):
+#         self.firstname = firstname
+#         self.lastname = lastname
         
-    def display(self):
-        print(self.firstname + " " + self.lastname)
+#     def display(self):
+#         print(self.firstname + " " + self.lastname)
         
-# child class
-class Player(Anyone):
-    pass                                 # 'pass' used to avoid errors when class definition of child class is empty
+# # child class
+# class Player(Anyone):
+#     pass                                 # 'pass' used to avoid errors when class definition of child class is empty
 
-ob1 = Player("Leonel", "Messi")
-ob1.display()
+# ob1 = Player("Leonel", "Messi")
+# ob1.display()
+
+
+
+
+import first_module
+
+first_module.sayHi("Developer")
